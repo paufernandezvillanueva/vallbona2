@@ -1,7 +1,70 @@
-
-body{
-background-image: url("./backgrounds/Birthday-Cake-.png");
+body {
+  background-image: url("./backgrounds/fons.png");
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 150%;
+  color: #615041;
 }
+
+div {
+  background-color: white;
+  opacity: 90%;
+}
+
+#capsalera {
+  text-align: center;
+}
+
+h1,
+h2,
+h3 {
+  letter-spacing: -0.05em;
+  font-weight: normal;
+  color: #ff8a46;
+  text-transform: uppercase;
+}
+
+ul {
+  list-style-type: square;
+}
+
+a:link {
+  color: #635240;
+  text-decoration: none;
+}
+
+.titol {
+  font-size: 52px;
+  line-height: 150%;
+}
+
+#macaroon {
+  text-align: right;
+}
+
+#capsalera p {
+  font-style: italic;
+}
+
+#index li a:hover {
+  color: aqua;
+  font-weight: bold;
+  font-size: 150%;
+  background-color: #a54440;
+}
+
+#index li {
+  list-style: url("buttons/boto\ vermell.png");
+}
+
+#continguts span {
+  background-color: #eadac3;
+  font-weight: bold;
+}
+
+div span:hover {
+  text-decoration: underline;
+}
+
 /*
 1. El cos de la pàgina tindrà la imatge de fons imatge de fons.png, utilitzarà la font Liberation Sans, si no Arial i si no sans-serif, tindrà l'interlineat del 130% i el color de lletra serà #615041.
 */
